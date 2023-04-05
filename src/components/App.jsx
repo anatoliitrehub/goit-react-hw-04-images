@@ -77,11 +77,7 @@ const App = () => {
   //   }
   // }
 
-  const addToGallery = (data) =>{
-    setGallery(()=>[...gallery, ...data]);
-
-  }
-
+ 
   useEffect(()=>{
     if(!searchWord) return
    
@@ -107,7 +103,7 @@ const App = () => {
               setLoading(false);
               setLoadMore(false);
               throw new Error("There are no results")}
-            addToGallery(data.data.hits);
+            setGallery((gallery)=>[...gallery, ...data.data.hits]);
             if (page * perPage < data.data.totalHits) {
               setLoadMore(true);
             } else setLoadMore(false);;
