@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-homework-template/static/css/main.fb21a4b3.css",
+    "main.js": "/react-homework-template/static/js/main.72382595.js",
+    "static/media/mono-ldap-lookup.svg": "/react-homework-template/static/media/mono-ldap-lookup.f6b33fee13bfb0bb7737.svg",
+    "index.html": "/react-homework-template/index.html",
+    "main.fb21a4b3.css.map": "/react-homework-template/static/css/main.fb21a4b3.css.map",
+    "main.72382595.js.map": "/react-homework-template/static/js/main.72382595.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb21a4b3.css",
+    "static/js/main.72382595.js"
+  ]
+}
